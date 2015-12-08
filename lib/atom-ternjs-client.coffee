@@ -96,7 +96,8 @@ class Client
       console.log err
 
   post: (data) ->
-    fetch("http://localhost:#{@port}",
+    port = 12345
+    fetch("http://localhost:#{port}",
       method:
         'post'
       body:

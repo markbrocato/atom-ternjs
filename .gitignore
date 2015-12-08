@@ -5,3 +5,4 @@ ternjs-test
 .tern-project
 .jshintrc
 jsconfig.json
+.idea

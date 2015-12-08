@@ -7,7 +7,7 @@ class Provider
   manager: null
   force: false
   # automcomplete-plus
-  selector: '.source.js'
+  selector: '.source.js, .source.scss'
   disableForSelector: '.source.js .comment'
   inclusionPriority: 1
   excludeLowerPriority: false
